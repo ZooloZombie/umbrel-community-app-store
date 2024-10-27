@@ -1,1 +1,27 @@
+manifestVersion: 1
+id: zzstore-monero
+name: Monero With P2Pool
+tagline: This is just a test
+icon: https://svgur.com/i/mvA.svg
+category: Development
+version: "1.0.0"
+port: 4000
+description: >-
+  Add your app's description here.
 
+
+  You can also add newlines!
+
+developer: Umbrel
+website: https://umbrel.com
+submitter: Umbrel
+submission: https://github.com/ZooloZombie/umbrel-community-app-store/zzstore-monero
+repo: https://github.com/ZooloZombie/umbrel-community-app-store/zzstore-monero
+support: https://github.com/ZooloZombie/umbrel-community-app-store/zzstore-monero/issues
+gallery:
+releaseNotes: >-
+  Add what's new in the latest version of your app here.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
