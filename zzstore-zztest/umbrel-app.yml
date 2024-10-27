@@ -1,1 +1,27 @@
+manifestVersion: 1
+id: zzstore-zztest
+name: ZZ Test
+tagline: This is just a test
+icon: https://svgur.com/i/mvA.svg
+category: Development
+version: "1.0.0"
+port: 4000
+description: >-
+  Add your app's description here.
 
+
+  You can also add newlines!
+
+developer: Umbrel
+website: https://umbrel.com
+submitter: Umbrel
+submission: https://github.com/ZooloZombie/umbrel-community-app-store/zzstore-zztest
+repo: https://github.com/ZooloZombie/umbrel-community-app-store/zzstore-zztest
+support: https://github.com/ZooloZombie/umbrel-community-app-store/zzstore-zztest/issues
+gallery:
+releaseNotes: >-
+  Add what's new in the latest version of your app here.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
