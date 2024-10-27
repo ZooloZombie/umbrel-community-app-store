@@ -7,14 +7,10 @@ networks:
 
 volumes:
   p2pool: 
-
     name: p2pool
-
-
 
   monero:
     name: monero
-
 
 services:
   p2pool:
@@ -25,9 +21,7 @@ services:
       - p2pool
     privileged: true
     ports:
-
       - 37888:37888/tcp
-
 
     volumes:
       - p2pool:/home/p2pool/.p2pool:rw
@@ -39,41 +33,11 @@ services:
 
     restart: unless-stopped
     command: >-
-
       --host monero
-
       --wallet 46xp68cE1biRZSQnMqceyRMWqqzDK1hNVPsnSh6kqX4sBo5rJAcJd1ATXhiYwb2XZ9f4HPZJwqgqzg1QP7WeKokQ4PabSsx
       --loglevel 3
-
-
-
       --local-api
       --data-api /home/p2pool/.p2pool
-
-
-
-
-
-
-
-
-  statistics:
-    image: statistics:latest
-    build:
-      context: statistics
-    container_name: p2pool-statistics
-    networks:
-      - p2pool
-    ports:
-      - 3380:80/tcp
-    volumes:
-      - p2pool:/data:ro
-    depends_on:
-      - p2pool
-    restart: unless-stopped
-
-
-
 
   monero:
     image: monero:latest
